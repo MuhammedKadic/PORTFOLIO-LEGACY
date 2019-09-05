@@ -4,13 +4,13 @@
 }
 
 .navbar {
- padding: 20px 20px;
- padding-bottom: 5px;
-margin: 0 auto;
-max-width: 400px;
-padding-top: .5em;
-border-bottom: solid 2px black;
-
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  font-size: 12px;
+  max-width: 100%;
+  padding-top: .5em;
+  border-bottom: solid 2px black;
 }
 
 .navbar ul {
@@ -19,37 +19,110 @@ border-bottom: solid 2px black;
 
 .navbar ul a {
   text-decoration: none;
- padding-left:1em;
- padding-bottom: 15px;
+  padding-left: 5px;
+  padding-bottom: 15px;
 }
 
-footer {
-  border-top: solid 2px black;
-  padding: 10px 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: left;
-  color: black;
-}
-/* Coursework CSS */
+/*IPAD Development */
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 20px 20px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding-top: .5em;
+    border-bottom: solid 2px black;
 
-.coursework h1 {
-  margin-right: auto;
-  margin-left: auto;
-  width: 360px;
-  text-align: center;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+  }
+
+  .navbar ul a {
+    text-decoration: none;
+    padding-left:1em;
+    padding-bottom: 15px;
+  }
+
+  footer {
+    border-top: solid 2px black;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    color: black;
+  }
+  /* Coursework CSS */
+
+  .coursework h1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 360px;
+    text-align: center;
+  }
+
+  .coursework p {
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    text-align: center;
+  }
+
 }
 
-.coursework p {
-  margin-right: auto;
-  margin-left: auto;
-  width: 700px;
-  text-align: center;
-}
+@media only screen and (min-width: 1556px) {
+  .navbar {
+    padding: 20px 20px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding-top: .5em;
+    border-bottom: solid 2px black;
+    font-size: 16px;
 
+  }
+
+  .navbar ul {
+    list-style-type: none;
+  }
+
+  .navbar ul a {
+    text-decoration: none;
+    padding-left:1em;
+    padding-bottom: 15px;
+  }
+
+  footer {
+    border-top: solid 2px black;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    color: black;
+  }
+  /* Coursework CSS */
+
+  .coursework h1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 360px;
+    text-align: center;
+  }
+
+  .coursework p {
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    text-align: center;
+  }
+}
 
 /* index.htm CSS */
 
@@ -63,24 +136,136 @@ footer {
 
 
 /* about.htm CSS */
+
 #personal_image {
-  height: 400px;
-  width: 800px;
-  padding-top: 60px;
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .right-side {
-  font-size: 20px;
-  float: right;
+  font-size: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
-  padding: 20px 20px;
   text-indent: 70px;
-  line-height: 35px;
+  line-height: 20px;
   text-align: left;
 }
 
 .right-side a {
   text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+  #personal_image {
+    height: 400px;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .right-side {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 70px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .right-side a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #personal_image {
+    height: 400px;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .right-side {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 70px;
+    line-height: 50px;
+    text-align: left;
+  }
+
+  .right-side a {
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (min-width: 1556px) {
+  #personal_image {
+    height: 400px;
+    width: 800px;
+    padding-top: 60px;
+  }
+
+  .right-side {
+    font-size: 20px;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 20px 20px;
+    text-indent: 70px;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .right-side a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #personal_image {
+    height: 400px;
+    width: 800px;
+    padding-top: 60px;
+  }
+
+  .right-side {
+    font-size: 25px;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding: 20px 20px;
+    text-indent: 70px;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .right-side a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 2250px) {
+  #personal_image {
+    height: 600px;
+    width: 50%;
+    padding-top: 60px;
+  }
+
+  .right-side {
+    font-size: 25px;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    padding: 20px 15px;
+    text-indent: 70px;
+    line-height: 57px;
+    text-align: left;
+  }
+
+  .right-side a {
+    text-decoration: none;
+  }
 }
