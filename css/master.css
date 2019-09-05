@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+* {
+  font-family: 'Lato';
+}
+
+.navbar {
+ padding: 20px 20px;
+ padding-bottom: 5px;
+margin: 0 auto;
+max-width: 400px;
+padding-top: .5em;
+border-bottom: solid 2px black;
+
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul a {
+  text-decoration: none;
+ padding-left:1em;
+ padding-bottom: 15px;
+}
+
+footer {
+  border-top: solid 2px black;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  color: black;
+}
+/* Coursework CSS */
+
+.coursework h1 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 360px;
+  text-align: center;
+}
+
+.coursework p {
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+  text-align: center;
+}
+
+
+/* index.htm CSS */
+
+
+
+
+/* portfolio.htm CSS */
+
+
+
+
+
+/* about.htm CSS */
+#personal_image {
+  height: 400px;
+  width: 800px;
+  padding-top: 60px;
+}
+
+.right-side {
+  font-size: 20px;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding: 20px 20px;
+  text-indent: 70px;
+  line-height: 35px;
+  text-align: left;
+}
+
+.right-side a {
+  text-decoration: none;
+}
