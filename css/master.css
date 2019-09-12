@@ -20,10 +20,10 @@
   padding: 20px;
   color: white;
   opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: .3s;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .3s;
 }
 
 .containerTab ol a {
@@ -33,12 +33,12 @@
 }
 
 @keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .column:hover {
   transform: scale(1.1);
@@ -58,63 +58,65 @@
   font-size: 35px;
   cursor: pointer;
 }
+.coursework-body {
+  overflow-x: hidden;
 
+}
 @media only screen and (min-width: 1556px) {
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 50px;
-  text-align: center;
-  font-size: 25px;
-  cursor: pointer;
-  color: black;
-  transition: transform .2s;
-}
+  .column {
+    float: left;
+    width: 33.3333333%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    transition: transform .2s;
+    overflow-x: hidden;
+  }
 
+  .containerTab {
+    padding: 20px;
+    color: white;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .3s;
+  }
 
+  .containerTab ol a {
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+  }
 
-.containerTab {
-  padding: 20px;
-  color: white;
-  opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: .3s;
-}
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .column:hover {
+    transform: scale(1.1);
+    opacity: .4;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.containerTab ol a {
-  color: white;
-  padding-left: 30px;
-  text-decoration: none;
-}
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-.column:hover {
-  transform: scale(1.1);
-  opacity: .4;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Closable button inside the container tab */
-.closebtn {
-  float: right;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
+  /* Closable button inside the container tab */
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
 
 }
 .navbar {
@@ -244,10 +246,52 @@
 }
 
 /* index.htm CSS */
+.boxes {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding: 5% 0;
+    padding: 50px 10%;
+}
+.box-1 {
+  padding-bottom: 50px;
+}
 
+.box-1 h1 {
+  padding: 0px 0px;
+  font-size: 125%;
+  text-indent: 50px;
+  text-align: left;
+}
 
+.box-1 p {
+  text-indent: 70px;
+  padding-left: 52px;
 
+}
 
+footer {
+  margin-right: auto;
+  margin-left: auto;
+}
+footer a {
+  text-decoration: none;
+
+}
+#facebook {
+  float: left;
+  padding-left: 10%;
+}
+
+#twitter {
+  padding-left: 20%;
+  float: left;
+}
+
+#github {
+  padding-left: 20%%;
+  float: left;
+}
 /* portfolio.htm CSS */
 
 
