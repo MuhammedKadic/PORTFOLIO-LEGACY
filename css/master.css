@@ -1,8 +1,122 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
 * {
   font-family: 'Lato';
+  box-sizing: border-box;
 }
 
+.column {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+  transition: transform .2s;
+}
+
+
+
+.containerTab {
+  padding: 20px;
+  color: white;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .3s;
+}
+
+.containerTab ol a {
+  color: white;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.column:hover {
+  transform: scale(1.1);
+  opacity: .4;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1556px) {
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+  transition: transform .2s;
+}
+
+
+
+.containerTab {
+  padding: 20px;
+  color: white;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .3s;
+}
+
+.containerTab ol a {
+  color: white;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.column:hover {
+  transform: scale(1.1);
+  opacity: .4;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+}
 .navbar {
   padding: 10px 10px;
   padding-bottom: 5px;
@@ -23,6 +137,12 @@
   padding-bottom: 15px;
 }
 
+.index_main h1 {
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
 /*IPAD Development */
 @media only screen and (min-width: 768px) {
   .navbar {
@@ -32,7 +152,6 @@
     max-width: 400px;
     padding-top: .5em;
     border-bottom: solid 2px black;
-
   }
 
   .navbar ul {
@@ -82,7 +201,7 @@
     max-width: 400px;
     padding-top: .5em;
     border-bottom: solid 2px black;
-    font-size: 16px;
+    font-size: 14px;
 
   }
 
